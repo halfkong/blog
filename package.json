@@ -4,7 +4,17 @@
   "description": "haris's blog",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "dev": "egg-bin dev"
   },
-  "author": "haris.ding"
+  "author": "haris.ding",
+  "dependencies": {
+    "antd": "^3.0.0",
+    "egg": "^2.0.0",
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.6"
+  }
 }

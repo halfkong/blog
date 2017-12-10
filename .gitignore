@@ -15,4 +15,4 @@ build
 npm-debug.log
 .happypack
 .idea
-src/server/static/js
+package-lock.json
