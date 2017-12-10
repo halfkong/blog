@@ -1,0 +1,10 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "haris's blog",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "haris.ding"
+}
