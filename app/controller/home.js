@@ -9,9 +9,8 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   
   async index() {
-    const { ctx, service } = this;
-    ctx.body = 'hello word!';
-    ctx.status = 201;
+    const { ctx } = this;
+    ctx.body = await this.app.next.renderToHTML(ctx.request, ctx.response, '/home', ctx.query);
   }
 }
 

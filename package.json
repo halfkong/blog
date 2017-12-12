@@ -4,17 +4,27 @@
   "description": "haris's blog",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "next-dev": "next",
+    "build": "next build"
   },
   "author": "haris.ding",
   "dependencies": {
     "antd": "^3.0.0",
+    "babel-plugin-import": "^1.6.3",
     "egg": "^2.0.0",
     "next": "^4.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
-    "egg-bin": "^4.3.6"
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "css-loader": "^0.28.7",
+    "egg-bin": "^4.3.6",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.19.0"
   }
 }
